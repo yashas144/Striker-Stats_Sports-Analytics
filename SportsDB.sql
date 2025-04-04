@@ -187,5 +187,19 @@ INSERT INTO PlayerInfo (PlayerID, PlayerName, Age, DOB, Gender, TotalGoalsScored
 (49, 'Álvaro Morata', 32, '1992-10-23', 'Male', 34),
 (50, 'Christian Pulisic', 26, '1998-09-18', 'Male', 28);
 
+INSERT INTO PlayerInfo (PlayerID, PlayerName, Age, DOB, Gender, TotalGoalsScored) VALUES 
+(51, 'Heung-Min Son', 32, '1992-07-08', 'Male', 41),
+(52, 'Christian Eriksen', 33, '1992-02-14', 'Male', 39),
+(53, 'Luka Jović', 27, '1997-12-23', 'Male', 15),
+(54, 'Hirving Lozano', 29, '1995-07-30', 'Male', 18),
+(55, 'Keylor Navas', 38, '1986-12-15', 'Male', 0),
+(56, 'Takumi Minamino', 30, '1995-01-16', 'Male', 19),
+(57, 'Sardar Azmoun', 30, '1995-01-01', 'Male', 44),
+(58, 'Teemu Pukki', 35, '1990-03-29', 'Male', 38),
+(59, 'Jan Oblak', 32, '1992-01-07', 'Male', 0),
+(60, 'Ermir Lenjani', 35, '1989-08-05', 'Male', 5);
+
 select * from playerinfo;
+
+
 
