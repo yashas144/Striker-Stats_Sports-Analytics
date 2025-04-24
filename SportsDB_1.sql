@@ -137,55 +137,55 @@ GoalsScored INTEGER,
 
 INSERT INTO PlayerInfo (PlayerID, PlayerName, Age, DOB, Gender, TotalGoalsScored) VALUES
 (1, 'Cristiano Ronaldo', 39, '1985-02-05', 'Male', 128),         -- as of March 2025
-(2, 'Lionel Messi', 37, '1987-06-24', 'Male', 106),
-(3, 'Neymar Jr', 33, '1992-02-05', 'Male', 79),
-(4, 'Kylian Mbappé', 26, '1998-12-20', 'Male', 46),
-(5, 'Robert Lewandowski', 36, '1988-08-21', 'Male', 82),
-(6, 'Harry Kane', 31, '1993-07-28', 'Male', 63),
-(7, 'Erling Haaland', 24, '2000-07-21', 'Male', 31),
-(8, 'Mohamed Salah', 32, '1992-06-15', 'Male', 55),
-(9, 'Kevin De Bruyne', 33, '1991-06-28', 'Male', 27),
-(10, 'Luka Modrić', 39, '1985-09-09', 'Male', 25),
-(11, 'Sergio Ramos', 38, '1986-03-30', 'Male', 23),
-(12, 'Virgil van Dijk', 33, '1991-07-08', 'Male', 9),
-(13, 'Karim Benzema', 37, '1987-12-19', 'Male', 37),
-(14, 'Antoine Griezmann', 34, '1991-03-21', 'Male', 44),
-(15, 'Toni Kroos', 35, '1990-01-04', 'Male', 17),
-(16, 'Eden Hazard', 34, '1991-01-07', 'Male', 33),
-(17, 'Raheem Sterling', 30, '1995-12-08', 'Male', 20),
-(18, 'Paulo Dybala', 31, '1993-11-15', 'Male', 9),
-(19, 'Zlatan Ibrahimović', 43, '1981-10-03', 'Male', 62),
+(2, 'Lionel Messi', 37, '1987-06-24', 'Male', 106),				 -- Winger / Forward
+(3, 'Neymar Jr', 33, '1992-02-05', 'Male', 79),					 -- Winger / Forward
+(4, 'Kylian Mbappé', 26, '1998-12-20', 'Male', 46),				 -- Winger / Forward
+(5, 'Robert Lewandowski', 36, '1988-08-21', 'Male', 82),		 -- Winger / Forward
+(6, 'Harry Kane', 31, '1993-07-28', 'Male', 63),				 -- Winger / Forward
+(7, 'Erling Haaland', 24, '2000-07-21', 'Male', 31),			 -- Winger / Forward
+(8, 'Mohamed Salah', 32, '1992-06-15', 'Male', 55),				 -- Winger / Forward
+(9, 'Kevin De Bruyne', 33, '1991-06-28', 'Male', 27),			 -- AM (Attacking Midfield)
+(10, 'Luka Modrić', 39, '1985-09-09', 'Male', 25),				 -- Midfield
+(11, 'Sergio Ramos', 38, '1986-03-30', 'Male', 23),				 -- CB (Centre Back)
+(12, 'Virgil van Dijk', 33, '1991-07-08', 'Male', 9),			 -- CB
+(13, 'Karim Benzema', 37, '1987-12-19', 'Male', 37),			 -- Winger / Forward	
+(14, 'Antoine Griezmann', 34, '1991-03-21', 'Male', 44),		 -- Winger / Forward
+(15, 'Toni Kroos', 35, '1990-01-04', 'Male', 17),				 -- Midfield
+(16, 'Eden Hazard', 34, '1991-01-07', 'Male', 33),				 -- Winger / Forward
+(17, 'Raheem Sterling', 30, '1995-12-08', 'Male', 20),			 -- Winger / Forward
+(18, 'Paulo Dybala', 31, '1993-11-15', 'Male', 9),				 -- Winger / Forward
+(19, 'Zlatan Ibrahimović', 43, '1981-10-03', 'Male', 62),		 -- Winger / Forward
 (20, 'Manuel Neuer', 39, '1986-03-27', 'Male', 0),  -- Goalkeeper
-(21, 'Bukayo Saka', 23, '2001-09-05', 'Male', 12),
-(22, 'Phil Foden', 24, '2000-05-28', 'Male', 10),
-(23, 'Jude Bellingham', 21, '2003-06-29', 'Male', 10),
-(24, 'João Félix', 25, '1999-11-10', 'Male', 7),
-(25, 'Kai Havertz', 25, '1999-06-11', 'Male', 13),
-(26, 'Mason Mount', 26, '1999-01-10', 'Male', 7),
-(27, 'Pedri', 22, '2002-11-25', 'Male', 5),
-(28, 'Gavi', 20, '2004-08-05', 'Male', 3),
-(29, 'Rodri', 28, '1997-06-22', 'Male', 7),
-(30, 'Declan Rice', 26, '1999-01-14', 'Male', 4),
-(31, 'Joshua Kimmich', 30, '1995-02-08', 'Male', 6),
-(32, 'Federico Valverde', 26, '1998-07-22', 'Male', 5),
-(33, 'Aurélien Tchouaméni', 25, '2000-01-27', 'Male', 2),
-(34, 'Alphonso Davies', 24, '2000-11-02', 'Male', 12),
-(35, 'Achraf Hakimi', 26, '1998-11-04', 'Male', 9),
-(36, 'Theo Hernández', 27, '1997-10-06', 'Male', 7),
-(37, 'Trent Alexander-Arnold', 26, '1998-10-07', 'Male', 4),
-(38, 'Reece James', 25, '1999-12-08', 'Male', 3),
-(39, 'Rúben Dias', 27, '1997-05-14', 'Male', 2),
-(40, 'Marquinhos', 30, '1994-05-14', 'Male', 7),
-(41, 'Aymeric Laporte', 30, '1994-05-27', 'Male', 3),
-(42, 'Alisson Becker', 32, '1992-10-02', 'Male', 0),
-(43, 'Thibaut Courtois', 32, '1992-05-11', 'Male', 0),
-(44, 'Gianluigi Donnarumma', 26, '1999-02-25', 'Male', 0),
-(45, 'Marc-André ter Stegen', 33, '1992-04-30', 'Male', 0),
-(46, 'Ederson Moraes', 31, '1993-08-17', 'Male', 0),
-(47, 'Lautaro Martínez', 27, '1997-08-22', 'Male', 22),
-(48, 'Olivier Giroud', 38, '1986-09-30', 'Male', 57),
-(49, 'Álvaro Morata', 32, '1992-10-23', 'Male', 34),
-(50, 'Christian Pulisic', 26, '1998-09-18', 'Male', 28);
+(21, 'Bukayo Saka', 23, '2001-09-05', 'Male', 12),				 -- Winger / Forward
+(22, 'Phil Foden', 24, '2000-05-28', 'Male', 10),				 -- Winger / Forward
+(23, 'Jude Bellingham', 21, '2003-06-29', 'Male', 10),			 -- AM
+(24, 'João Félix', 25, '1999-11-10', 'Male', 7),				 -- Winger / Forward
+(25, 'Kai Havertz', 25, '1999-06-11', 'Male', 13),				 -- Winger / Forward
+(26, 'Mason Mount', 26, '1999-01-10', 'Male', 7),				 -- Winger / Forward
+(27, 'Pedri', 22, '2002-11-25', 'Male', 5),						 -- Midfield
+(28, 'Gavi', 20, '2004-08-05', 'Male', 3),						 -- Midfield
+(29, 'Rodri', 28, '1997-06-22', 'Male', 7),						 -- Midfield
+(30, 'Declan Rice', 26, '1999-01-14', 'Male', 4),				 -- Midfield
+(31, 'Joshua Kimmich', 30, '1995-02-08', 'Male', 6),			 -- Midfield
+(32, 'Federico Valverde', 26, '1998-07-22', 'Male', 5),			 -- AM
+(33, 'Aurélien Tchouaméni', 25, '2000-01-27', 'Male', 2),		 -- Midfield
+(34, 'Alphonso Davies', 24, '2000-11-02', 'Male', 12),			 -- Defense
+(35, 'Achraf Hakimi', 26, '1998-11-04', 'Male', 9),				 -- Defense
+(36, 'Theo Hernández', 27, '1997-10-06', 'Male', 7),			 -- Defense
+(37, 'Trent Alexander-Arnold', 26, '1998-10-07', 'Male', 4),	 -- Defense
+(38, 'Reece James', 25, '1999-12-08', 'Male', 3),				 -- Defense / Midefield
+(39, 'Rúben Dias', 27, '1997-05-14', 'Male', 2),				 -- CB
+(40, 'Marquinhos', 30, '1994-05-14', 'Male', 7),				 -- CB
+(41, 'Aymeric Laporte', 30, '1994-05-27', 'Male', 3),			 -- CB
+(42, 'Alisson Becker', 32, '1992-10-02', 'Male', 0),	   -- Goalie
+(43, 'Thibaut Courtois', 32, '1992-05-11', 'Male', 0),	   -- Goalie
+(44, 'Gianluigi Donnarumma', 26, '1999-02-25', 'Male', 0), -- Goalie
+(45, 'Marc-André ter Stegen', 33, '1992-04-30', 'Male', 0), -- Goalie
+(46, 'Ederson Moraes', 31, '1993-08-17', 'Male', 0),	-- Goalie
+(47, 'Lautaro Martínez', 27, '1997-08-22', 'Male', 22), -- Winger / Forward
+(48, 'Olivier Giroud', 38, '1986-09-30', 'Male', 57),	-- Winger / Forward
+(49, 'Álvaro Morata', 32, '1992-10-23', 'Male', 34),	-- Winger / Forward
+(50, 'Christian Pulisic', 26, '1998-09-18', 'Male', 28); -- Winger / Forward
 
 INSERT INTO PlayerInfo (PlayerID, PlayerName, Age, DOB, Gender, TotalGoalsScored) VALUES 
 (51, 'Heung-Min Son', 32, '1992-07-08', 'Male', 41),
@@ -371,3 +371,260 @@ INSERT INTO TeamPlayers (ID, TeamID, PlayerID) VALUES (59, 30, 59);
 INSERT INTO TeamPlayers (ID, TeamID, PlayerID) VALUES (60, 31, 60);
 
 select * from TeamPlayers;
+select * from playerinfo;
+select * from teaminfo;
+select * from users;
+
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (1, 'Portugal FC', 'Portugal', 195, 117, 45, 33, 360, 1);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (2, 'Argentina FC', 'Argentina', 225, 135, 50, 40, 420, 2);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (3, 'Brazil FC', 'Brazil', 250, 160, 45, 45, 500, 3);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (4, 'France FC', 'France', 230, 145, 50, 35, 460, 4);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (5, 'Poland FC', 'Poland', 180, 95, 55, 30, 290, 5);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (6, 'England FC', 'England', 240, 150, 50, 40, 470, 6);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (7, 'Norway FC', 'Norway', 160, 85, 50, 25, 220, 7);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (8, 'Egypt FC', 'Egypt', 210, 125, 55, 30, 350, 8);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (9, 'Belgium FC', 'Belgium', 220, 140, 45, 35, 440, 9);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (10, 'Croatia FC', 'Croatia', 190, 110, 45, 35, 320, 10);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (11, 'Spain FC', 'Spain', 235, 145, 50, 40, 460, 11);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (12, 'Germany FC', 'Germany', 260, 165, 55, 40, 510, 12);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (13, 'Netherlands FC', 'Netherlands', 210, 130, 50, 30, 390, 13);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (14, 'Canada FC', 'Canada', 140, 80, 40, 20, 200, 14);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (15, 'Morocco FC', 'Morocco', 190, 110, 50, 30, 310, 15);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (16, 'Italy FC', 'Italy', 250, 155, 55, 40, 480, 16);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (17, 'USA FC', 'USA', 200, 120, 50, 30, 340, 17);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (18, 'Uruguay FC', 'Uruguay', 215, 130, 55, 30, 370, 18);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (19, 'Sweden FC', 'Sweden', 195, 115, 50, 30, 330, 19);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (20, 'Belgium FC', 'Belgium', 85, 50, 20, 15, 125, 20);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (21, 'France FC', 'France', 95, 55, 25, 15, 130, 21);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (22, 'South Korea FC', 'South Korea', 210, 120, 60, 30, 350, 22);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (23, 'Denmark FC', 'Denmark', 205, 115, 55, 35, 340, 23);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (24, 'Serbia FC', 'Serbia', 180, 95, 60, 25, 310, 24);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (25, 'Mexico FC', 'Mexico', 225, 135, 55, 35, 400, 25);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (26, 'Costa Rica FC', 'Costa Rica', 175, 100, 50, 25, 280, 26);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (27, 'Japan FC', 'Japan', 230, 140, 60, 30, 390, 27);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (28, 'Iran FC', 'Iran', 190, 105, 60, 25, 320, 28);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (29, 'Finland FC', 'Finland', 160, 85, 50, 25, 240, 29);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (30, 'Slovenia FC', 'Slovenia', 150, 80, 45, 25, 220, 30);
+INSERT INTO TeamInfo (TeamID, TeamName, Country, NumOfMatchesPlayed, MatchesWon, MatchesLost, MatchesTie, TotalGoalsScored, ManagerID) VALUES (31, 'Albania FC', 'Albania', 140, 75, 45, 20, 210, 31);
+
+-- checking for duplicates if at all you executed insertion statements twice by mistake
+-- Tip: replace table name and table attributes in the from and group by clauses.
+SELECT *, COUNT(*)
+FROM users
+GROUP BY UserID, UserName, UserPassword, UserFirstName, UserLastName, UserRole, Email, Mobile
+HAVING COUNT(*) > 1;
+
+select *  from teaminfo;
+
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (1, 'Portugal FC vs Argentina FC', 'Old Trafford, Manchester', '2014-11-18');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (2, 'Portugal FC vs Brazil FC', 'Moses Mabhida Stadium, Durban', '2010-06-25');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (3, 'Portugal FC vs France FC', 'Stade de France, Saint-Denis', '2016-07-10');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (4, 'Portugal FC vs Poland FC', 'Silesian Stadium, Chorzów', '2018-10-11');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (5, 'Portugal FC vs England FC', 'Gelsenkirchen', '2006-07-01');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (6, 'Portugal FC vs Norway FC', 'Estádio da Luz, Lisbon', '2011-06-04');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (7, 'Portugal FC vs Egypt FC', 'Letzigrund, Zurich', '2018-03-23');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (8, 'Portugal FC vs Belgium FC', 'La Cartuja, Seville', '2021-06-27');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (9, 'Portugal FC vs Croatia FC', 'Poljud Stadium, Split', '2020-11-17');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (10, 'Portugal FC vs Spain FC', 'Fisht Olympic Stadium, Sochi', '2018-06-15');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (11, 'Portugal FC vs Germany FC', 'Allianz Arena, Munich', '2021-06-19');
+
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (12, 'Portugal FC vs Croatia FC', 'Estádio do SL Benfica, Lisbon', '2024-09-05');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (13, 'Portugal FC vs Scotland FC', 'Estádio do SL Benfica, Lisbon', '2024-09-08');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (14, 'Portugal FC vs Poland FC', 'PGE Narodowy, Warsaw', '2024-10-12');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (15, 'Portugal FC vs Slovenia FC', 'Waldstadion, Frankfurt', '2024-07-01');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (16, 'Portugal FC vs France FC', 'Volksparkstadion, Hamburg', '2024-07-05');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (17, 'Portugal FC vs Ghana FC', 'Stadium 974, Doha', '2022-11-24');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (18, 'Portugal FC vs Uruguay FC', 'Lusail Stadium, Lusail', '2022-11-28');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (19, 'Portugal FC vs Switzerland FC', 'Lusail Stadium, Lusail', '2022-12-06');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (20, 'Portugal FC vs Morocco FC', 'Al Thumama Stadium, Doha', '2022-12-10');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (21, 'Portugal FC vs Spain FC', 'Estádio Municipal de Braga, Braga', '2022-09-27');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (22, 'Portugal FC vs Czech Republic FC', 'Estádio José Alvalade, Lisbon', '2022-06-09');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (23, 'Portugal FC vs Switzerland FC', 'Estádio José Alvalade, Lisbon', '2022-06-05');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (24, 'Portugal FC vs Turkey FC', 'Estádio do Dragão, Porto', '2022-03-24');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (25, 'Portugal FC vs North Macedonia FC', 'Estádio do Dragão, Porto', '2022-03-29');
+INSERT INTO MatchInfo (MatchID, MatchName, Venue, MatchDate) VALUES (26, 'Portugal FC vs Ireland FC', 'Aviva Stadium, Dublin', '2021-11-11');
+
+select * from matchinfo; 
+
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (1, 1, 1, 2, '1-0 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (2, 2, 1, 3, '0-0 - Draw');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (3, 3, 1, 4, '1-0 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (4, 4, 1, 5, '3-2 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (5, 5, 1, 6, '0-0 (3-1 pens) - Draw');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (6, 6, 1, 7, '1-0 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (7, 7, 1, 8, '2-1 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (8, 8, 1, 9, '0-1 - Loss');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (9, 9, 1, 10, '3-2 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (10, 10, 1, 11, '3-3 - Draw');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (11, 11, 1, 12, '2-4 - Loss');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (12, 12, 1, 10, '2-1 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (13, 13, 1, 23, '2-1 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (14, 14, 1, 5, '3-1 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (15, 15, 1, 30, '0-0 (5-3 pens) - Draw');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (16, 16, 1, 4, '0-1 - Loss');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (17, 17, 1, 15, '3-2 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (18, 18, 1, 18, '2-0 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (19, 19, 1, 9, '6-1 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (20, 20, 1, 15, '0-1 - Loss');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (21, 21, 1, 11, '0-1 - Loss');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (22, 22, 1, 23, '2-0 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (23, 23, 1, 9, '4-0 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (24, 24, 1, 24, '3-1 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (25, 25, 1, 31, '2-0 - Win');
+INSERT INTO MatchHistory (ID, MatchID, TeamID, PlayedAgainst, MatchResult) VALUES (26, 26, 1, 17, '0-0 - Draw');
+
+select * from matchhistory;
+
+
+-- delete from matchhistory;
+
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (1, 1, 1, 1, 2, '2014-01-01', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (2, 2, 1, 1, 2, '2014-01-01', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (3, 2, 2, 1, 3, '2014-06-30', '2-3 - Loss', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (4, 3, 2, 1, 3, '2014-06-30', '2-3 - Loss', 3);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (5, 3, 3, 1, 4, '2014-12-27', '0-2 - Loss', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (6, 4, 3, 1, 4, '2014-12-27', '0-2 - Loss', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (7, 4, 4, 1, 5, '2015-06-25', '2-1 - Win', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (8, 5, 4, 1, 5, '2015-06-25', '2-1 - Win', 1);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (9, 5, 5, 1, 6, '2015-12-22', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (10, 6, 5, 1, 6, '2015-12-22', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (11, 6, 6, 1, 7, '2016-06-19', '2-3 - Loss', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (12, 7, 6, 1, 7, '2016-06-19', '2-3 - Loss', 3);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (13, 7, 7, 1, 8, '2016-12-16', '0-2 - Loss', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (14, 8, 7, 1, 8, '2016-12-16', '0-2 - Loss', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (15, 8, 8, 1, 9, '2017-06-14', '2-1 - Win', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (16, 9, 8, 1, 9, '2017-06-14', '2-1 - Win', 1);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (17, 9, 9, 1, 10, '2017-12-11', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (18, 10, 9, 1, 10, '2017-12-11', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (19, 10, 10, 1, 11, '2018-06-09', '2-3 - Loss', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (20, 11, 10, 1, 11, '2018-06-09', '2-3 - Loss', 3);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (21, 11, 11, 1, 12, '2018-12-06', '0-2 - Loss', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (22, 12, 11, 1, 12, '2018-12-06', '0-2 - Loss', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (23, 12, 12, 1, 13, '2019-06-04', '2-1 - Win', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (24, 13, 12, 1, 13, '2019-06-04', '2-1 - Win', 1);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (25, 13, 13, 1, 14, '2019-12-01', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (26, 14, 13, 1, 14, '2019-12-01', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (27, 14, 14, 1, 15, '2020-05-29', '2-3 - Loss', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (28, 15, 14, 1, 15, '2020-05-29', '2-3 - Loss', 3);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (29, 15, 15, 1, 16, '2020-11-25', '0-2 - Loss', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (30, 16, 15, 1, 16, '2020-11-25', '0-2 - Loss', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (31, 16, 16, 1, 17, '2021-05-24', '2-1 - Win', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (32, 17, 16, 1, 17, '2021-05-24', '2-1 - Win', 1);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (33, 17, 17, 1, 18, '2021-11-20', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (34, 18, 17, 1, 18, '2021-11-20', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (35, 18, 18, 1, 19, '2022-05-19', '2-3 - Loss', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (36, 19, 18, 1, 19, '2022-05-19', '2-3 - Loss', 3);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (37, 19, 19, 1, 20, '2022-11-15', '0-2 - Loss', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (38, 20, 19, 1, 20, '2022-11-15', '0-2 - Loss', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (39, 20, 20, 1, 21, '2023-05-14', '2-1 - Win', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (40, 21, 20, 1, 21, '2023-05-14', '2-1 - Win', 1);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (41, 21, 21, 1, 22, '2023-11-10', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (42, 22, 21, 1, 22, '2023-11-10', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (43, 22, 22, 1, 23, '2024-05-08', '2-3 - Loss', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (44, 23, 22, 1, 23, '2024-05-08', '2-3 - Loss', 3);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (45, 23, 23, 1, 24, '2024-11-04', '0-2 - Loss', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (46, 24, 23, 1, 24, '2024-11-04', '0-2 - Loss', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (47, 24, 24, 1, 25, '2025-05-03', '2-1 - Win', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (48, 25, 24, 1, 25, '2025-05-03', '2-1 - Win', 1);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (49, 25, 25, 1, 26, '2025-10-30', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (50, 26, 25, 1, 26, '2025-10-30', '0-0 - Draw', 0);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (51, 26, 26, 1, 27, '2026-04-28', '2-3 - Loss', 2);
+INSERT INTO PlayerHistory (ID, PlayerID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (52, 27, 26, 1, 27, '2026-04-28', '2-3 - Loss', 3);
+
+select * from playerhistory;
+
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (1, 1, 1, 2, '2014-01-01', 'Draw', 0);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (2, 2, 1, 3, '2014-06-30', 'Loss', 2);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (3, 3, 1, 4, '2014-12-27', 'Loss', 0);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (4, 4, 1, 5, '2015-06-25', 'Win', 2);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (5, 5, 1, 6, '2015-12-22', 'Draw', 0);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (6, 6, 1, 7, '2016-06-19', 'Loss', 2);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (7, 7, 1, 8, '2016-12-16', 'Loss', 0);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (8, 8, 1, 9, '2017-06-14', 'Win', 2);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (9, 9, 1, 10, '2017-12-11', 'Draw', 0);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (10, 10, 1, 11, '2018-06-09', 'Loss', 2);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (11, 11, 1, 12, '2018-12-06', 'Loss', 0);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (12, 12, 1, 13, '2019-06-04', 'Win', 2);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (13, 13, 1, 14, '2019-12-01', 'Draw', 0);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (14, 14, 1, 15, '2020-05-29', 'Loss', 2);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (15, 15, 1, 16, '2020-11-25', 'Loss', 0);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (16, 16, 1, 17, '2021-05-24', 'Win', 2);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (17, 17, 1, 18, '2021-11-20', 'Draw', 0);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (18, 18, 1, 19, '2022-05-19', 'Loss', 2);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (19, 19, 1, 20, '2022-11-15', 'Loss', 0);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (20, 20, 1, 21, '2023-05-14', 'Win', 2);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (21, 21, 1, 22, '2023-11-10', 'Draw', 0);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (22, 22, 1, 23, '2024-05-08', 'Loss', 2);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (23, 23, 1, 24, '2024-11-04', 'Loss', 0);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (24, 24, 1, 25, '2025-05-03', 'Win', 2);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (25, 25, 1, 26, '2025-10-30', 'Draw', 0);
+INSERT INTO TeamHistory (ID, MatchID, TeamID, PlayedAgainst, MatchDate, MatchResult, GoalsScored) VALUES (26, 26, 1, 27, '2026-04-28', 'Loss', 2);
+
+select * from teamhistory;
+
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (1, 1, 1, 1, 'Best Team Performance', '2015-01-01');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (2, 1, 2, 4, 'Most Disciplined', '2015-08-29');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (3, 1, 3, 7, 'Best Strategy', '2016-04-25');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (4, 1, 4, 10, 'Team Spirit', '2016-12-21');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (5, 1, 5, 13, 'Fair Play', '2017-08-18');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (6, 1, 6, 16, 'Strongest Defense', '2018-04-15');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (7, 1, 7, 19, 'Most Aggressive', '2018-12-11');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (8, 1, 8, 22, 'Crowd Favorite', '2019-08-08');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (9, 1, 9, 25, 'Top Scoring Team', '2020-04-04');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (10, 1, 10, 28, 'Comeback Kings', '2020-11-30');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (11, 1, 11, 31, 'Best Passing Accuracy', '2021-07-28');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (12, 1, 12, 34, 'Most Possession', '2022-03-25');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (13, 1, 13, 37, 'Best Pressing', '2022-11-20');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (14, 1, 14, 40, 'Most Goals in a Match', '2023-07-18');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (15, 1, 15, 43, 'Flawless Win', '2024-03-14');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (16, 1, 6, 6, 'Historic Win', '2022-01-01');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (17, 1, 7, 13, 'Strong Second Half', '2022-04-01');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (18, 1, 8, 20, 'Clean Sheet', '2022-06-30');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (19, 1, 9, 27, 'Dominant Midfield', '2022-09-28');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (20, 1, 10, 34, 'Captain’s Leadership', '2022-12-27');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (21, 1, 11, 41, 'Smart Substitutions', '2023-03-27');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (22, 1, 12, 48, 'Solid Finishing', '2023-06-25');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (23, 1, 13, 55, 'Most Fouls Drawn', '2023-09-23');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (24, 1, 14, 2, 'Fan Favorite Squad', '2023-12-22');
+INSERT INTO TeamAwards (ID, TeamID, MatchID, PlayerID, AwardName, DateofAward) VALUES (25, 1, 15, 9, 'Highest Pass Completion', '2024-03-21');
+
+select * from teamawards;
+
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (1, 1, 4, 1, 'Man of the Match', '2016-01-01');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (2, 2, 8, 1, 'Golden Boot', '2016-06-29');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (3, 3, 12, 1, 'Assist King', '2016-12-26');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (4, 4, 16, 1, 'Match Saver', '2017-06-24');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (5, 5, 20, 1, 'Top Sprinter', '2017-12-21');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (6, 6, 24, 1, 'Smartest Play', '2018-06-19');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (7, 7, 28, 1, 'Finisher Extraordinaire', '2018-12-16');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (8, 8, 32, 1, 'Game Changer', '2019-06-14');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (9, 9, 36, 1, 'Defensive Wall', '2019-12-11');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (10, 10, 40, 1, 'Midfield Maestro', '2020-06-08');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (11, 11, 44, 1, 'Fan Favorite', '2020-12-05');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (12, 12, 48, 1, 'Best Dribbler', '2021-06-03');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (13, 13, 52, 1, 'Most Valuable Player', '2021-11-30');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (14, 14, 56, 1, 'Clutch Performer', '2022-05-29');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (15, 15, 60, 1, 'Breakthrough Star', '2022-11-25');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (16, 11, 8, 1, 'Sharp Shooter', '2021-01-01');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (17, 12, 13, 1, 'Best Captain', '2021-05-01');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (18, 13, 18, 1, 'Penalty Specialist', '2021-08-29');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (19, 14, 23, 1, 'First Goal Scorer', '2021-12-27');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (20, 15, 28, 1, 'Energy Tank', '2022-04-26');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (21, 16, 33, 1, 'Veteran Performance', '2022-08-24');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (22, 17, 38, 1, 'Young Star', '2022-12-22');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (23, 18, 43, 1, 'Tactical Genius', '2023-04-21');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (24, 19, 48, 1, 'Wall of Steel', '2023-08-19');
+INSERT INTO PlayerAwards (ID, MatchID, PlayerID, TeamID, AwardName, DateofAward) VALUES (25, 20, 53, 1, 'Clutch Goal', '2023-12-17');
+
+select * from playerawards;
+
+select * from playerinfo;
+select * from playerhistory;
+select * from playerawards;
+select * from users;
+select * from teaminfo;
+select * from teamplayers;
+select * from teamhistory;
+select * from teamawards;
+select * from matchinfo;
+select * from matchhistory;
