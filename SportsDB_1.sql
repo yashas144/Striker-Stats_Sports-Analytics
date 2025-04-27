@@ -628,3 +628,101 @@ select * from teamhistory;
 select * from teamawards;
 select * from matchinfo;
 select * from matchhistory;
+
+-- Usecases (Subqueries, Stored Procedures)
+
+-- Players Who Scored More Goals Than Average
+SELECT PlayerName, TotalGoalsScored
+FROM PlayerInfo
+WHERE TotalGoalsScored > (
+    SELECT AVG(TotalGoalsScored)
+    FROM PlayerInfo
+);
+
+-- Teams Who Have Won More Than Their Average Matches
+SELECT TeamName, MatchesWon
+FROM TeamInfo
+WHERE MatchesWon > (
+    SELECT AVG(MatchesWon)
+    FROM TeamInfo
+);
+
+-- Players Who Won an Award Named "Man of the Match"
+SELECT PlayerName
+FROM PlayerInfo
+WHERE PlayerID IN (
+    SELECT PlayerID
+    FROM PlayerAwards
+    WHERE AwardName = 'Man of the Match'
+);
+
+-- Teams That Had a Match in the Same Venue as 'Old Trafford, Manchester'
+SELECT DISTINCT TeamName
+FROM TeamInfo
+WHERE TeamID IN (
+    SELECT TeamID
+    FROM MatchHistory
+    WHERE MatchID IN (
+        SELECT MatchID
+        FROM MatchInfo
+        WHERE Venue = 'Old Trafford, Manchester'
+    )
+);
+
+-- Stored Procedures (SP)
+
+-- SP to Find All Awards Won by a Player
+DELIMITER //
+CREATE PROCEDURE GetPlayerAwards(IN player_name TEXT)
+BEGIN
+    SELECT pa.AwardName, pa.DateofAward
+    FROM PlayerAwards pa
+    JOIN PlayerInfo pi ON pa.PlayerID = pi.PlayerID
+    WHERE pi.PlayerName = player_name;
+END //
+DELIMITER ;
+
+CALL GetPlayerAwards('Cristiano Ronaldo');
+
+-- SP to List Matches a Team Played
+DELIMITER //
+CREATE PROCEDURE GetTeamMatches(IN team_name TEXT)
+BEGIN
+    SELECT mi.MatchName, mi.Venue, mi.MatchDate
+    FROM MatchInfo mi
+    JOIN MatchHistory mh ON mi.MatchID = mh.MatchID
+    JOIN TeamInfo ti ON mh.TeamID = ti.TeamID
+    WHERE ti.TeamName = team_name;
+END //
+DELIMITER ;
+
+CALL GetTeamMatches('Portugal FC');
+
+-- SP to Get Top 'N' Players by Goals
+DELIMITER //
+CREATE PROCEDURE GetTopPlayers(IN top_n INT)
+BEGIN
+    SELECT PlayerName, TotalGoalsScored
+    FROM PlayerInfo
+    ORDER BY TotalGoalsScored DESC
+    LIMIT top_n;
+END //
+DELIMITER ;
+
+CALL GetTopPlayers(5);
+
+-- SP to Get All Players of a Team
+DELIMITER //
+CREATE PROCEDURE GetTeamPlayers(IN team_name TEXT)
+BEGIN
+    SELECT pi.PlayerName, pi.Age
+    FROM PlayerInfo pi
+    JOIN TeamPlayers tp ON pi.PlayerID = tp.PlayerID
+    JOIN TeamInfo ti ON tp.TeamID = ti.TeamID
+    WHERE ti.TeamName = team_name;
+END //
+DELIMITER ;
+
+CALL GetTeamPlayers('Argentina FC');
+
+
